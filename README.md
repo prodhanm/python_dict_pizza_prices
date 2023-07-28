@@ -51,8 +51,8 @@ By default, if a key() or value() is not stated, then the result are the key to 
 
 The use of the value() will result with all of the corresponding values to the keys:
 
-    for i in id_101230056.values():
-        print(i)
+    for key in id_101230056.values():
+        print(key)
 
     result:
         Jesus Christos
@@ -65,7 +65,7 @@ The use of the value() will result with all of the corresponding values to the k
 Another use of the dictionary is to get the corresponding values to the dictionary as it would display in the real world:
 
     for i,j in id_101230056.items():
-        print(i ":" j)
+        print(key ":" value)
 
     result:
         name : Jesus Christos
